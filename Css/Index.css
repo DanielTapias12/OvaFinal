@@ -1,3 +1,13 @@
+/* Estilos para pantallas grandes (mayor a 768px) */
+@media screen and (min-width: 768px) {
+    /* Agrega tus estilos para pantallas grandes aquí */
+    @media screen and (min-width: 576px) and (max-width: 767px) {
+ @media screen and (max-width: 575px) {
+
+
+
+
+
 
 /* texto del cuerpo*/
 body {
@@ -94,4 +104,18 @@ div.parte2{
     transform: translate(1%,28% );
     display: flex;
     padding:30 px;
+}
+
+
+
+
+}
+  
+/* Estilos para pantallas medianas (entre 576px y 767px) */
+  /* Agrega tus estilos para pantallas medianas aquí */
+}
+
+/* Estilos para pantallas pequeñas (menor a 576px) */
+
+  /* Agrega tus estilos para pantallas pequeñas aquí */
 }
