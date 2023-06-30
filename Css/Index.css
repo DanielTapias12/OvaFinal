@@ -1,14 +1,3 @@
-/* Estilos para pantallas grandes (mayor a 768px) */
-@media screen and (min-width: 768px) {
-    /* Agrega tus estilos para pantallas grandes aquí */
-    @media screen and (min-width: 576px) and (max-width: 767px) {
- @media screen and (max-width: 575px) {
-
-
-
-
-
-
 /* texto del cuerpo*/
 body {
     margin: 0;
@@ -106,16 +95,3 @@ div.parte2{
     padding:30 px;
 }
 
-
-
-
-}
-  
-/* Estilos para pantallas medianas (entre 576px y 767px) */
-  /* Agrega tus estilos para pantallas medianas aquí */
-}
-
-/* Estilos para pantallas pequeñas (menor a 576px) */
-
-  /* Agrega tus estilos para pantallas pequeñas aquí */
-}
