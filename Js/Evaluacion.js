@@ -166,7 +166,7 @@ let mensajePuntos5 = document.getElementById("puntos5");
   prepun6 = 1;
   
   } else {
-  mensaje.innerText = "Error!! " + elemento5.innerText +" "+ "No es la respuesta correcta";
+  mensaje.innerText = "Error!! " + elemento6.innerText +" "+ "No es la respuesta correcta";
   mensaje.classList.remove('has-text-primary');
   mensaje.classList.add('has-text-danger');
   prepun6 = -1;
@@ -276,7 +276,7 @@ let mensajePuntos5 = document.getElementById("puntos5");
   prepun10 = 1;
   
   } else {
-  mensaje.innerText = "Error!! " + elemento5.innerText +" "+ "No es la respuesta correcta";
+  mensaje.innerText = "Error!! " + elemento10.innerText +" "+ "No es la respuesta correcta";
   mensaje.classList.remove('has-text-primary');
   mensaje.classList.add('has-text-danger');
   prepun10 = -1;
