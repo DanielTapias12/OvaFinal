@@ -16,24 +16,19 @@ body {
     /* Calcula el ancho y largo de los elementos, especifica el valor de los bordes*/    
 }
 /*Maneja el borde del menu*/
-/*Maneja el borde del menu*/
 nav {
     /* Define el color de los elementos */
     background: #3845DB;
     /* Define la altura */
     height: 70px;
     /* Define el ancho*/ 
-    width: 97.5%; 
-   position:relative;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 0 20px;
+    width: 100%; 
+   
 }
-
 /*Ubicación del objeto*/
 .enlace {
-   padding: 10px;
+    position: absolute;
+   padding: 10px 30px;
 }
 /*Tamaño del objeto*/
 .logo {
@@ -42,7 +37,7 @@ nav {
 }
 /*Texto del menu*/
 nav a {
-    color: #000000;
+    color: black;
     /* dimensiones de la letra */
     font-size: 18px;
     padding: 7px ;
@@ -57,25 +52,24 @@ nav a {
     margin-right: 40px;*/
 
 }
-
-/* Responsive styles */
-@media screen and (max-width: 768px) {
-    /* Adjust the logo size for smaller screens */
-    .logo {
-        height: 35px;
-    }
-
-    /* Convert the menu into a vertical layout */
-    nav {
-        flex-direction: column;
-        height: 100%;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-        float: none;
-    }
+/*El relleno*/
+ ul a.active, 
+ /* hover: efectua un segundo estado*/
+ ul a:hover {
+    background-color: #DB860B;
+    color: #F2F2F2;
+    transition: .5s;
 }
+/*Posición de los elementos*/
+nav ul li{
+    /*Ubicación de un elemento */
+   float: right;
+    margin-right: 20px;
+    line-height: 65px; 
+    margin: 0 5px;
+}
+
+
 
 
 /* Pestañas (tabs) */
